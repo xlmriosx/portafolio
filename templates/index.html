@@ -182,67 +182,366 @@ function getSecondsToday() {
   return Math.round(diff / 1000);
 }
 </script>
-<body>
-  <section class="nav">
-    <h1 style="user-select: none;">WELCOME TO MY WEBSITE</h1>
-    <h2 class="no" style="user-select: none;">My name is Lucas M. Ríos</h2>
-    
-    <h3 class="no" style="padding-top: 100px; color: gray;">KEEP SCROLLING</h3>
-    <div class="nav-container" style="max-width: 60px; border-radius: 30px 30px 0px 0px; border-color: #fff">
-      <a class="nav-tab" href="#tab-pwa" style="size: 5px; user-select: none">v</a>
-      <span class="nav-tab-slider"></span>
-    </div>
-  </section>
 
+<body class="wrapper" style="overflow-y: hidden;">
   
-  <main class="main">
-    <section class="slider" id="tab-pwa">
+    <section class="nav" >
+      <h1 style="user-select: none;">WELCOME TO MY WEBSITE</h1>
+      <h2 class="no" style="user-select: none;">My name is Lucas M. Ríos</h2>
       
-      <!--Carta de guia-->
-      <div class="container-dark">
-        <div class="card-about">
-          <h1 class="title">Choose a section!</h1>
-          </br>
-          <p>
-            Wearing a bold pattern or print can show that you've put real thought into your outfit. The terms
-            “print” and “pattern“ are often used interchangeably, but they have different meanings. A pattern is
-            any repeated design, whereas a print is a design that has been printed onto fabric, rather than
-            woven or embroidered.
-          </p>
-          <!--</p>-->
-        </div>
-
-        <div class="container-info">
-          <span class="textile-name">Title: <span class="value">Meteor</span></span>
-          <span class="textile-color">Color: <span class="value">#0000ff</span></span>
-        </div>
-        
-        <div class="container-img">
-          <!--<image class="textile" style="object-fit: cover; border-radius: 25px;" height="20%" src="https://th.bing.com/th/id/OIP.7xx-a8C68pSMd2I1cIHTpgHaHa?pid=ImgDet&rs=1"></image>-->
-          <div class="clock">
-            <div class="clock__second"></div>
-            <div class="clock__minute"></div>
-              <div class="clock__hour"></div>
-            <div class="clock__axis"></div>
-          </div>
-
-        </div>
+      <h3 class="no" style="padding-top: 100px; color: gray; user-select: none;">CLICK IN THE BOTTOM</h3>
+      <div class="nav-container" style="max-width: 60px; border-radius: 30px 30px 0px 0px; border-color: #fff">
+        <a class="nav-tab" href="#tab-pwa" style="size: 5px; user-select: none">v</a>
+        <span class="nav-tab-slider"></span>
       </div>
     </section>
-    
-  </main>
-  
-  <main class="main-presentation">
-    
-  </main>
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
 
+    <div class="wrapper">
+      <main class="main">
+        <section class="slider" id="tab-pwa">
+          
+          <!--Carta de guia-->
+          <div class="container-dark" style="max-width: 500px;">
+            <div class="card-about">
+              
+              <h1 class="title" >Choose a section!</h1>
+              </br>
+              <li style="color: red;"><a href="#aboutme" style="color: #03dac6;">About me</a></li>
+              <li style="color: red;"><a href="#academic" style="color: #03dac6;">Academic</a></li>
+              <li style="color: red;"><a href="#projects" style="color: #03dac6;">Projects</a></li>
+              <li style="color: red;"><a href="#skills_frontend" style="color: #03dac6;">Skills FRONTEND</a></li>
+              <li style="color: red;"><a href="#skills_backend" style="color: #03dac6;">Skills BACKEND</a></li>
+              <li style="color: red;"><a href="#skills_testing" style="color: #03dac6;">Skills TESTING</a></li>
+              
+              <!--</p>-->
+            </div>
+
+            <div class="container-info">
+              <span class="textile-name">Title: <span class="value">Guide</span></span>
+              <span class="textile-color">Page: <span class="value">01</span></span>
+            </div>
+            
+            
+              <div class="" style="border-radius: 120px; background-color: gray;">
+                <!--<image class="textile" style="object-fit: cover; border-radius: 25px;" height="20%" src="https://th.bing.com/th/id/OIP.7xx-a8C68pSMd2I1cIHTpgHaHa?pid=ImgDet&rs=1"></image>-->
+                <div class="clock">
+                  <div class="clock__second"></div>
+                  <div class="clock__minute"></div>
+                    <div class="clock__hour"></div>
+                  <div class="clock__axis"></div>
+                </div>
+                
+              </div>
+             
+            
+          </div>
+          
+        </section>
+        
+      </main>
+      
+      <main id="aboutme" class="main-presentation">
+        <section class="slider" id="">
+          
+          <!--Carta de guia-->
+          <div class="container-dark">
+            <div class="card-about">
+              
+              <h1 class="title" style="user-select: none;">About me</h1>
+              </br>
+              <p><li>Like you saw, my name is Lucas but usually people call me Rios.</li></p>
+              <p><li>I'm from Argentina, Chaco, Resistencia but I pretend go to live in other country.</li></p>
+              <p><li>I'm passionated about knowledges for that sometimes I firm with «Floreant dendritae» that's mean let your dendrites bloom.</li></p>
+              <p><li>Some of my hobbies are piano, books, write and martial arts.</li></p>
+
+              <!--</p>-->
+            </div>
+
+            <div class="container-info">
+              
+              <span class="textile-name">Title: <span class="value">About me</span></span>
+              <span class="textile-color">Page: <span class="value">02</span></span>
+            </div>
+            <div class="container-info" style="padding-left: 130px;">
+              <a href="#tab-pwa" class="btn btn-primary" style="border-radius: 10px;">Guide</a>
+            </div>
+          
+            <div class="container-img">
+              <img src="{{ url_for('static', filename='images/cowboy.png') }}" class="textile" style="object-fit: cover; border-radius: 25px; max-width: 450px;" height="60%" ></img>
+              
+
+            </div>
+            
+
+          </div>
+        </section>
+      </main>
+
+      <main id="academic" class="main-presentation">
+        <section class="slider" id="">
+          
+          <!--Carta de guia-->
+          <div class="container-dark">
+            <div class="card-about">
+              
+              <h1 class="title" style="user-select: none;">Academic</h1>
+              </br>
+              <p><li>I'm graduated as Electromechanic Technical</li></p><br>
+              <p><li>I'm in my 3rd year of Information System Engineering in the U.T.N.</li></p><br>
+              <p><li>I'm taking courses from Informatorio, Starting Coding I.A., Udemy, Cisco Networking, U.T.N., U.N.N.E., Linkedin, etc.</li></p>
+              
+              <!--</p>-->
+            </div>
+
+            <div class="container-info">
+              
+              <span class="textile-name">Title: <span class="value">Academic</span></span>
+              <span class="textile-color">Page: <span class="value">03</span></span>
+            </div>
+            <div class="container-info" style="padding-left: 130px;">
+              <a href="#tab-pwa" class="btn btn-primary" style="border-radius: 10px;">Guide</a>
+            </div>
+          
+            <div class="container-img">
+              <img src="{{ url_for('static', filename='images/academico.png') }}" class="textile" style="object-fit: cover; border-radius: 220px; max-width: 450px; background-color: gray;" height="60%" >
+
+            </div>
+            
+
+          </div>
+        </section>
+      </main>   
+
+      
+      <main id="projects" class="main-presentation">
+        <section class="slider" id="">
+          
+          <!--Carta de guia-->
+          <h2 class="title" style="user-select: none; text-align: center; float: bottom;">PROJECTS</h2>
+            </br>
+          <div class="container-dark">
+            
+              
+           
+              
+          
+
+            
+            <!--
+            </p>
+            <div style="padding-left: 100px;">
+              <h3 style="user-select: none;">LANGUAGES</h3><br>
+              <img src="{{ url_for('static', filename='images/python_java.png') }}" class="textile" style="object-fit: cover; max-width: 400px;" height="60%" >
+              <br><br>
+            
+
+            </div>-->
+
+            
+            <main class="page-content">
+              <div class="card" style="border-radius: 25px 0px 0px 25px;">
+                <div class="content">
+                  <p class="copy">A page where you can adopt animals created with Django and HTML, CSS, JS.</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="content">
+                  
+                  <p class="copy">A famous game called Minesweeper created with Pharo.</p>
+                  
+                </div>
+              </div>
+              <div class="card">
+                <div class="content">
+                  
+                  <p class="copy">An lexical syntactic analyzer with Java.</p>
+                  
+                </div>
+              </div>
+              <div class="card" style="border-radius: 0px 25px 25px 0px;">
+                <div class="content" >
+                  
+                  <p class="copy">A database for a computer project management system with MySQL.</p>
+                  
+                </div>
+              </div>
+            </main>
+
+            
+            <div class="container-info">
+              <span class="textile-name">Title: <span class="value">Project</span></span>
+              <span class="textile-color">Page: <span class="value">04</span></span>
+            </div>
+            <div class="container-info" style="padding-left: 100px;">
+              <a href="#tab-pwa" class="btn btn-primary" style="border-radius: 10px;">Guide</a>
+            </div>
+
+          </div>
+        </section>
+      </main>
+
+
+
+      <main id="skills_frontend" class="main-presentation">
+        <section class="slider" id="">
+          
+          <!--Carta de guia-->
+          <div class="container-dark">
+            
+            <div class="card-about">
+              
+              <h1 class="title" style="user-select: none;">FRONTEND</h1>
+              
+              </br>
+              <p>Languages</p>
+              <p><li>HTML5.</li></p>
+              <p><li>CSS.</li></p>
+              <p><li>Javascript.</li></p>
+              <br>
+              <p>FRAMEWORKS</p>
+              <p><li>ReactJS.</li></p>
+              <br>
+              
+              <!--</p>-->
+            </div>
+            
+
+            
+            <div style="padding-left: 100px;">
+              <h3 style="user-select: none;">LANGUAGES</h3><br>
+              <img src="{{ url_for('static', filename='images/html-js-css.png')}}" class="textile" style="max-width: 450px; user-select: none;" height="60%">
+              <br><br>
+              <h3 style="user-select: none">FRAMEWORKS</h3>
+              <img src="{{ url_for('static', filename='images/react.png')}}" class="textile" style="max-width: 150px; user-select: none;" height="60%">
+
+            </div>
+          
+            
+
+            <div class="container-info">
+              <span class="textile-name">Title: <span class="value">Skills</span></span>
+              <span class="textile-color">Page: <span class="value">05</span></span>
+            </div>
+            <div class="container-info" style="padding-left: 100px;">
+              <a href="#tab-pwa" class="btn btn-primary" style="border-radius: 10px;">Guide</a>
+            </div>
+
+          </div>
+        </section>
+      </main>
+      
+      <main id="skills_backend" class="main-presentation">
+        <section class="slider" id="">
+          
+          <!--Carta de guia-->
+          <div class="container-dark">
+            <div class="card-about">
+              
+              <h1 class="title" style="user-select: none;">BACKEND</h1>
+              </br>
+                <p>LANGUAGES</p>
+                <p><li>Python.</li></p>
+                <p><li>Java.</li></p>
+                <p><li>C++.</li></p>
+                <p><li>SQL.</li></p>
+                <p><li>NodeJS.</li></p>
+                <br>
+                <p>FRAMEWORKS</p>
+                <p><li>Django.</li></p>
+                <p><li>Flask.</li></p>
+                <p><li>Spring.</li></p>
+              <!--</p>-->
+            </div>
+
+            
+            
+          
+            <div style="padding-left: 100px;">
+              <h3 style="user-select: none;">LANGUAGES</h3><br>
+              <img src="{{ url_for('static', filename='images/python_java_c++.png') }}" class="textile" style="object-fit: cover; max-width: 370px;" height="60%" >
+              <br>
+              <img src="{{ url_for('static', filename='images/sql_nodejs.png') }}" class="textile" style="object-fit: cover; max-width: 370px;" height="60%" >
+              <br><br><br>
+              <h3 style="user-select: none">FRAMEWORKS</h3>
+              <img src="{{ url_for('static', filename='images/django_flask_spring.png')}}" class="textile" style="max-width: 350px; user-select: none;" height="60%">
+
+            </div>
+
+            <div class="container-info">
+              <span class="textile-name">Title: <span class="value">Skills</span></span>
+              <span class="textile-color">Page: <span class="value">06</span></span>
+            </div>
+            <div class="container-info" style="padding-left: 100px;">
+              <a href="#tab-pwa" class="btn btn-primary" style="border-radius: 10px;">Guide</a>
+            </div>
+
+          </div>
+        </section>
+      </main>
+
+      <main id="skills_testing" class="main-presentation">
+        <section class="slider" id="">
+          
+          <!--Carta de guia-->
+          <div class="container-dark">
+            <div class="card-about">
+              
+              <h1 class="title" style="user-select: none;">TESTING</h1>
+              </br>
+                <p>LANGUAGES</p>
+                <p><li>Python.</li></p>
+                <p><li>Java.</li></p>
+                <br>
+                <p>FRAMEWORKS</p>
+                <p><li>PyTest.</li></p>
+                <p><li>JUnit.</li></p>
+                <br>
+                <p>SOFTWARES</p>
+                <p><li>Postman.</li></p>
+                
+              <!--</p>-->
+            </div>
+
+            
+            
+          
+            <div style="padding-left: 100px;">
+              <h3 style="user-select: none;">LANGUAGES</h3><br>
+              <img src="{{ url_for('static', filename='images/python_java.png') }}" class="textile" style="object-fit: cover; max-width: 400px;" height="60%" >
+              <br><br>
+              <h3 style="user-select: none">FRAMEWORKS</h3>
+              <img src="{{ url_for('static', filename='images/pytest_junit.png')}}" class="textile" style="max-width: 350px; user-select: none;" height="60%">
+              <br><br>
+              <h3 style="user-select: none;">SOFTWARES</h3><br>
+              <img src="{{ url_for('static', filename='images/postman.png') }}" class="textile" style="object-fit: cover; max-width: 100px;" height="60%" >
+              
+
+            </div>
+
+            <div class="container-info">
+              <span class="textile-name">Title: <span class="value">Skills</span></span>
+              <span class="textile-color">Page: <span class="value">07</span></span>
+            </div>
+            <div class="container-info" style="padding-left: 100px;">
+              <a href="#tab-pwa" class="btn btn-primary" style="border-radius: 10px;">Guide</a>
+            </div>
+
+          </div>
+        </section>
+      </main>
+
+
+    </div>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+
+    
+    <canvas class="background"></canvas>
   
-  <canvas class="background"></canvas>
 </body>
+
 <footer></footer>
 </html>
 

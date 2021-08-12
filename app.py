@@ -57,7 +57,3 @@ def index():
 # def mostrar_json(nombre):
 #     valores = {'nombre': nombre, 'metodo': request.method}
 #     return jsonify(valores)
-
-
-
-
