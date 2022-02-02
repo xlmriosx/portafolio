@@ -172,7 +172,7 @@ a {
 	display: block;
 	position: relative;
 	background: #272727;
-	width: 80%;
+	width: auto;
 	height: 80%;
 	min-height: 480px;
 	padding: 30px;
